@@ -248,9 +248,13 @@ header {
   color: var(--copper-light);
 }
 
-.content pre {
+.pre-wrapper {
   position: relative;
   margin: 20px 0;
+}
+
+.content pre {
+  margin: 0;
   padding: 20px;
   background: var(--navy-mid);
   border-radius: 8px;
