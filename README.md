@@ -1,4 +1,4 @@
 # cccl_instructions
 Instructions and Prerequisites for an event
 
-Published at: https://cccl-ai.github.io/instructions/
+Published at: https://cccl-ai.github.io/cccl_instructions/
