@@ -362,6 +362,62 @@ header {
   margin: 0 0 8px;
 }
 
+/* --- Event Index --- */
+
+.content .event-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.event-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 20px 0;
+  border-bottom: 1px solid var(--border);
+  text-decoration: none;
+  transition: background 0.2s ease;
+}
+
+.event-row:first-child {
+  border-top: 1px solid var(--border);
+}
+
+.event-row:hover .event-name { color: var(--copper); }
+
+.event-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.event-name {
+  font-family: 'Instrument Serif', Georgia, serif;
+  font-size: 22px;
+  font-weight: 400;
+  color: var(--text);
+  transition: color 0.2s ease;
+}
+
+.event-date {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+.event-arrow {
+  color: var(--text-muted);
+  flex-shrink: 0;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.event-row:hover .event-arrow {
+  color: var(--copper);
+  transform: translateX(4px);
+}
+
 /* --- Footer --- */
 
 footer {

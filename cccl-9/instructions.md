@@ -1,62 +1,125 @@
 ---
 layout: default
 title: "CCCL LON #9 — Attendee Instructions"
-description: "Everything you need to know before, during, and after CCCL London #9."
+description: "Everything you need to know before CCCL London #9."
 event_date: "Monday 29 June 2026"
-subtitle: "Read this before you arrive"
-meta:
-  - label: Doors
-    value: "18:00"
-  - label: Venue
-    value: "Central London (address in your Luma confirmation)"
-  - label: Format
-    value: "Talks · Networking · Food & Drinks"
+subtitle: "Follow the instructions for installing prerequisites for the event"
 ---
 
-<!-- Privacy: never include full venue address, host company name, or attendee emails. Venue = neighbourhood only. Full address in Luma confirmation only. -->
+## Prerequisites
 
-## Before You Arrive
+Please complete the following setup **before** the event. If you run into issues, join the WhatsApp group and ask for help.
 
-| Action | Details |
-|--------|---------|
-| Register on Luma | You must be registered to attend. Check your email for the Luma confirmation. |
-| Get the venue address | The full address is in your **Luma confirmation email** — it is not published here. |
-| Follow updates | Join the [WhatsApp group](https://cccl.ai/whatsapp) or [Slack](https://cccl.ai/slack) for last-minute updates. |
-| Arrive on time | Doors open at **18:00**. Talks start at **18:30 sharp**. |
+---
 
-## On the Night
+## 1. Install Git & GitHub
 
-- **Show your Luma confirmation** at the door (email or phone).
-- **Food and drinks** are free while stocks last — grab them early.
-- Talks start at **18:30 sharp** — please settle in before then.
-- Questions are held until the **end of each talk**.
-- **No recording** of talks without the speaker's explicit permission.
-- **Photos and social posts** are encouraged — tag **#CCCL**.
+### Mac
 
-## Speaking at This Event
+1. Open **Terminal** (search "Terminal" in Apps).
+2. Run: `git --version`
+   - If Git is not installed, macOS will prompt you to install Xcode Command Line Tools. Click **Install** and wait for it to complete.
+3. Create a free account at [github.com](https://github.com) if you don't have one.
+4. Configure Git with your name and email:
+   ```bash
+   git config --global user.name "Your Name"
+   git config --global user.email "you@example.com"
+   ```
 
-| Item | Details |
-|------|---------|
-| Slide deadline | Monday before the event |
-| Format | 16:9 PDF or Google Slides (shared link) |
-| Slot length | Respect your allotted time — we run to schedule |
-| Arrive by | **18:00** to test slides before doors open |
-| Demo fallback | Have a recorded demo or screenshots ready in case of live demo issues |
+### Windows
 
-Send slides to Vikram on [Slack](https://cccl.ai/slack) by the deadline.
+1. Download **Git for Windows** from [git-scm.com/download/win](https://git-scm.com/download/win).
+2. Run the installer — accept the defaults (make sure "Git Bash Here" is checked).
+3. Open **Git Bash** (right-click on the desktop or search in Start).
+4. Create a free account at [github.com](https://github.com) if you don't have one.
+5. Configure Git:
+   ```bash
+   git config --global user.name "Your Name"
+   git config --global user.email "you@example.com"
+   ```
 
-## Code of Conduct
+---
 
-CCCL follows the [Berlin Code of Conduct](https://berlincodeofconduct.org).
+## 2. Install Claude CLI (Claude Code)
 
-- Be **kind, curious, and constructive**.
-- No harassment, discrimination, or unsolicited pitching.
-- Violations may result in removal from the event and the community.
-- To report an incident, DM **Vikram on [Slack](https://cccl.ai/slack)**.
+### Mac
 
-## After the Event
+1. Make sure **Node.js 18+** is installed. Check with:
+   ```bash
+   node --version
+   ```
+   If not installed, download it from [nodejs.org](https://nodejs.org).
+2. Install Claude Code globally:
+   ```bash
+   npm install -g @anthropic-ai/claude-code
+   ```
+3. Verify the install:
+   ```bash
+   claude --version
+   ```
+4. On first run, `claude` will open a browser tab to authenticate with your Anthropic account.
 
-- **Slides** will be posted on the agenda page within a few days of the event.
-- **Connect** with speakers and attendees on LinkedIn.
-- **Share** your highlights with **#CCCL** on social media.
-- Want to **speak at a future event**? DM Vikram on [Slack](https://cccl.ai/slack).
+### Windows
+
+1. Make sure **Node.js 18+** is installed. Download from [nodejs.org](https://nodejs.org) and run the installer.
+2. Open **Command Prompt** or **PowerShell** and install Claude Code:
+   ```bash
+   npm install -g @anthropic-ai/claude-code
+   ```
+3. Verify the install:
+   ```bash
+   claude --version
+   ```
+4. On first run, `claude` will open a browser tab to authenticate with your Anthropic account.
+
+> **Note (Windows):** If you see a permissions error, run PowerShell as Administrator and retry.
+
+---
+
+## 3. Install VS Code with Python
+
+### Mac
+
+1. Download **Visual Studio Code** from [code.visualstudio.com](https://code.visualstudio.com).
+2. Open the `.dmg` file and drag VS Code to your **Applications** folder.
+3. Open VS Code. Press `Cmd+Shift+X` to open Extensions.
+4. Search for **Python** (by Microsoft) and click **Install**.
+5. Install Python if you don't have it:
+   ```bash
+   brew install python
+   ```
+   Or download from [python.org](https://www.python.org/downloads/).
+6. In VS Code, open the Command Palette (`Cmd+Shift+P`) and select **Python: Select Interpreter** — choose your Python 3.x installation.
+
+### Windows
+
+1. Download **Visual Studio Code** from [code.visualstudio.com](https://code.visualstudio.com).
+2. Run the installer — check **"Add to PATH"** during setup.
+3. Open VS Code. Press `Ctrl+Shift+X` to open Extensions.
+4. Search for **Python** (by Microsoft) and click **Install**.
+5. Install Python from [python.org](https://www.python.org/downloads/) — check **"Add Python to PATH"** during setup.
+6. In VS Code, open the Command Palette (`Ctrl+Shift+P`) and select **Python: Select Interpreter** — choose your Python 3.x installation.
+
+---
+
+## 4. Kata Repo > **Good to have**
+
+Clone the kata repository before the event so you're ready to code straight away:
+
+```bash
+git clone https://github.com/cccl-ai/cccl-kata-workshop.git
+```
+
+---
+
+## 5. Join the WhatsApp Group 
+
+Stay updated and get help from other attendees before and during the event:
+
+[Join the CCCL - KATA Workshop WhatsApp group](https://chat.whatsapp.com/DQuzeeKobHlC4zbKLVaLfZ?s=sh&p=a&ilr=4)
+
+--- 
+
+## Need Help?
+
+Drop a message in the WhatsApp group. See you on **29 June 2026**!
