@@ -13,7 +13,7 @@ Please complete the following setup **before** the event. If you run into issues
 ---
 
 <details class="step-collapsible" markdown="1">
-<summary class="step-summary">1. Install Git &amp; GitHub</summary>
+<summary class="step-summary">Step 1. Install Git &amp; GitHub</summary>
 
 ### Mac
 
@@ -24,6 +24,8 @@ Please complete the following setup **before** the event. If you run into issues
 4. Configure Git with your name and email:
    ```bash
    git config --global user.name "Your Name"
+   ```
+   ```bash
    git config --global user.email "you@example.com"
    ```
 
@@ -36,6 +38,8 @@ Please complete the following setup **before** the event. If you run into issues
 5. Configure Git:
    ```bash
    git config --global user.name "Your Name"
+   ```
+   ```bash
    git config --global user.email "you@example.com"
    ```
 
@@ -44,7 +48,7 @@ Please complete the following setup **before** the event. If you run into issues
 ---
 
 <details class="step-collapsible" markdown="1">
-<summary class="step-summary">2. Install Claude CLI (Claude Code)</summary>
+<summary class="step-summary">Step 2. Install Claude CLI (Claude Code)</summary>
 
 ### Mac
 
@@ -83,38 +87,28 @@ Please complete the following setup **before** the event. If you run into issues
 ---
 
 <details class="step-collapsible" markdown="1">
-<summary class="step-summary">3. Install VS Code with Python</summary>
+<summary class="step-summary">Step 3. Install VS Code with Python</summary>
 
 ### Mac
 
 1. Download **Visual Studio Code** from [code.visualstudio.com](https://code.visualstudio.com).
 2. Open the `.dmg` file and drag VS Code to your **Applications** folder.
 3. Open VS Code. Press `Cmd+Shift+X` to open Extensions.
-4. Search for **Python** (by Microsoft) and click **Install**.
-5. Install Python if you don't have it:
-   ```bash
-   brew install python
-   ```
-   Or download from [python.org](https://www.python.org/downloads/).
-6. In VS Code, open the Command Palette (`Cmd+Shift+P`) and select **Python: Select Interpreter** — choose your Python 3.x installation.
 
 ### Windows
 
 1. Download **Visual Studio Code** from [code.visualstudio.com](https://code.visualstudio.com).
 2. Run the installer — check **"Add to PATH"** during setup.
 3. Open VS Code. Press `Ctrl+Shift+X` to open Extensions.
-4. Search for **Python** (by Microsoft) and click **Install**.
-5. Install Python from [python.org](https://www.python.org/downloads/) — check **"Add Python to PATH"** during setup.
-6. In VS Code, open the Command Palette (`Ctrl+Shift+P`) and select **Python: Select Interpreter** — choose your Python 3.x installation.
 
 </details>
 
 ---
 
 <details class="step-collapsible" markdown="1">
-<summary class="step-summary">4. Kata Repo &gt; <strong>Good to have</strong></summary>
+<summary class="step-summary">Step 4. Kata Repo &gt; <strong>Good to have</strong></summary>
 
-Clone the kata repository before the event so you're ready to code straight away:
+Get the kata repository before the event so you're ready to code straight away:
 
 ```bash
 git clone https://github.com/cccl-ai/cccl-kata-workshop.git
@@ -125,7 +119,7 @@ git clone https://github.com/cccl-ai/cccl-kata-workshop.git
 ---
 
 <details class="step-collapsible" markdown="1">
-<summary class="step-summary">5. Join the WhatsApp Group</summary>
+<summary class="step-summary">Step 5. Join the WhatsApp Group</summary>
 
 Stay updated and get help from other attendees before and during the event:
 
