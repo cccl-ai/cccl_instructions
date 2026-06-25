@@ -12,7 +12,8 @@ Please complete the following setup **before** the event. If you run into issues
 
 ---
 
-## 1. Install Git & GitHub
+<details class="step-collapsible" markdown="1">
+<summary class="step-summary">1. Install Git &amp; GitHub</summary>
 
 ### Mac
 
@@ -38,9 +39,12 @@ Please complete the following setup **before** the event. If you run into issues
    git config --global user.email "you@example.com"
    ```
 
+</details>
+
 ---
 
-## 2. Install Claude CLI (Claude Code)
+<details class="step-collapsible" markdown="1">
+<summary class="step-summary">2. Install Claude CLI (Claude Code)</summary>
 
 ### Mac
 
@@ -74,9 +78,12 @@ Please complete the following setup **before** the event. If you run into issues
 
 > **Note (Windows):** If you see a permissions error, run PowerShell as Administrator and retry.
 
+</details>
+
 ---
 
-## 3. Install VS Code with Python
+<details class="step-collapsible" markdown="1">
+<summary class="step-summary">3. Install VS Code with Python</summary>
 
 ### Mac
 
@@ -100,9 +107,12 @@ Please complete the following setup **before** the event. If you run into issues
 5. Install Python from [python.org](https://www.python.org/downloads/) — check **"Add Python to PATH"** during setup.
 6. In VS Code, open the Command Palette (`Ctrl+Shift+P`) and select **Python: Select Interpreter** — choose your Python 3.x installation.
 
+</details>
+
 ---
 
-## 4. Kata Repo > **Good to have**
+<details class="step-collapsible" markdown="1">
+<summary class="step-summary">4. Kata Repo &gt; <strong>Good to have</strong></summary>
 
 Clone the kata repository before the event so you're ready to code straight away:
 
@@ -110,13 +120,18 @@ Clone the kata repository before the event so you're ready to code straight away
 git clone https://github.com/cccl-ai/cccl-kata-workshop.git
 ```
 
+</details>
+
 ---
 
-## 5. Join the WhatsApp Group 
+<details class="step-collapsible" markdown="1">
+<summary class="step-summary">5. Join the WhatsApp Group</summary>
 
 Stay updated and get help from other attendees before and during the event:
 
 [Join the CCCL - KATA Workshop WhatsApp group](https://chat.whatsapp.com/DQuzeeKobHlC4zbKLVaLfZ?s=sh&p=a&ilr=4)
+
+</details>
 
 --- 
 
