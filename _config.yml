@@ -1,0 +1,7 @@
+title: CCCL Instructions
+description: Attendee instructions for CCCL live meetups
+url: "https://cccl-ai.github.io"
+baseurl: "/instructions"
+markdown: kramdown
+kramdown:
+  input: GFM

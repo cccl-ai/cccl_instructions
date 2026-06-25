@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CCCL Instructions</title>
+  <meta name="description" content="Attendee instructions for CCCL live meetups">
+  <meta property="og:title" content="CCCL Instructions">
+  <meta property="og:description" content="Attendee instructions for CCCL live meetups">
+  <meta property="og:image" content="https://cccl.ai/logos/cccl-social-preview-1200x628.png">
+  <meta property="og:url" content="https://cccl-ai.github.io/instructions/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="CCCL Instructions">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="CCCL Instructions">
+  <meta name="twitter:description" content="Attendee instructions for CCCL live meetups">
+  <meta name="twitter:image" content="https://cccl.ai/logos/cccl-social-preview-1200x628.png">
+  <link rel="icon" href="https://cccl.ai/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300..700;1,9..40,300..700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+  <style>
+    .event-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .event-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      padding: 20px 0;
+      border-bottom: 1px solid var(--border);
+      text-decoration: none;
+      transition: background 0.2s ease;
+    }
+
+    .event-row:first-child {
+      border-top: 1px solid var(--border);
+    }
+
+    .event-row:hover .event-name {
+      color: var(--copper);
+    }
+
+    .event-info {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .event-name {
+      font-family: 'Instrument Serif', Georgia, serif;
+      font-size: 22px;
+      font-weight: 400;
+      color: var(--text);
+      transition: color 0.2s ease;
+    }
+
+    .event-date {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 13px;
+      color: var(--text-muted);
+    }
+
+    .event-arrow {
+      color: var(--text-muted);
+      flex-shrink: 0;
+      transition: color 0.2s ease, transform 0.2s ease;
+    }
+
+    .event-row:hover .event-arrow {
+      color: var(--copper);
+      transform: translateX(4px);
+    }
+
+    .index-header {
+      margin-bottom: 48px;
+      padding-bottom: 36px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .index-header h1 {
+      font-family: 'Instrument Serif', Georgia, serif;
+      font-size: clamp(36px, 5vw, 52px);
+      font-weight: 400;
+      line-height: 1.1;
+      letter-spacing: -0.02em;
+      margin-bottom: 12px;
+    }
+
+    .index-header p {
+      font-size: 16px;
+      color: var(--text-secondary);
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <header style="display: flex; justify-content: space-between; align-items: center;">
+      <a href="https://cccl.ai/events" class="back-link">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M10 12L6 8l4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        All Events
+      </a>
+      <a href="https://cccl.ai"><img src="https://cccl.ai/logos/cccl-header-dark.svg" alt="CCCL" style="height: 64px; opacity: 0.85;" /></a>
+    </header>
+
+    <div class="index-header">
+      <h1>Attendee Instructions</h1>
+      <p>Everything you need to know before, during, and after each CCCL event.</p>
+    </div>
+
+    <ul class="event-list">
+      <li>
+        <a href="{{ '/cccl-9/instructions' | relative_url }}" class="event-row">
+          <div class="event-info">
+            <span class="event-name">CCCL London #9</span>
+            <span class="event-date">Monday 29 June 2026</span>
+          </div>
+          <svg class="event-arrow" width="20" height="20" viewBox="0 0 20 20" fill="none">
+            <path d="M7 10h6M10 7l3 3-3 3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+      </li>
+    </ul>
+
+    <footer>
+      <a href="https://cccl.ai/whatsapp">WhatsApp</a> · <a href="https://cccl.ai/slack">Slack</a> · <a href="https://cccl.ai/events">Events</a> · <a href="https://cccl.ai">cccl.ai</a>
+    </footer>
+  </div>
+</body>
+</html>
