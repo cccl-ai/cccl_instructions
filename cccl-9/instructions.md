@@ -87,7 +87,7 @@ Please complete the following setup **before** the event. If you run into issues
 ---
 
 <details class="step-collapsible" markdown="1">
-<summary class="step-summary">Step 3. Install VS Code with Python</summary>
+<summary class="step-summary">Step 3. Install VS Code</summary>
 
 ### Mac
 
